@@ -2,84 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task_1</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div>
-        <div>
-            <h2>Full Stack Developer</h2>
-            <h1>First Name Last Name</h1>
-            <p>I am energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, 
-            or situation that I am presented with. I have strong technical skills with a proven track record in designing websites,
-            networking and managing databases. I am eager to be challenged in order to grow and further improve my IT skills.</p>
-            <hr>
+<!--main section-->
+    <div class="main-section">
+    <!--main content section-->
+        <div class="main-content">
+        <!--about me-->
+            <div class="about-me-section">
+                <h2 class="about-me-profession">Full Stack Developer</h2>
+                <h1 class="about-me-name">First name Last name</h1>
+                <p class="about-me-description">I am energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, 
+                    or situation that I am presented with. I have strong technical skills with a proven track record in designing websites,
+                    networking and managing databases. I am eager to be challenged in order to grow and further improve my IT skills</p>
+            </div>
+            <div class="my-project-section">
+            <!-- My projects section-->
+                <h3 class="main-content-title">Projects</h3>
+                <ol class="my-project-list">
+                    <li> <span class="my-project-text"><a href="/index.html" class="my-project-link">site1</a>..........<span class="my-projects-bracket">[</span> HTML,CSS<span class="my-projects-bracket">]</span></li></span>
+                    <li><span class="my-project-text"><a href="https://replit.com/@Aline6estak/Do-you-know-me?embed=1&ouput=1#index.js" class="my-project-link">site2</a>..........<span class="my-projects-bracket">[</span> JavaScript <span class="my-projects-bracket">]</span></li></span>  
+                    <li><span class="my-project-text"><a href="https://replit.com/@Aline6estak/Do-you-know-me?embed=1&ouput=1#index.js" class="my-project-link">site3</a>..........<span class="my-projects-bracket">[</span> Node js <span class="my-projects-bracket">]</span></li></span>  
+                </ol>
+            </div>
+            <!--My work experience -->
+            <div class="my-work-experience-section">
+                <h3 class="main-content-title">Work experience</h3> 
+                <!--Work place1-->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position">Full stack developer<span class="my-work-experience-company"> Design Square Ins<span></h4>
+                    <p class="my-work-experience-period">2017 – current <span class="my-work-experience-divider">|</span> Ukraine</p>
+                    <ul class="my-work-experience-duties">
+                        <li>Added and maintained backend/frontend tools for canvas and weight based editor</li>
+                        <li>Worked closely with the product team to build intelligent search functionality in Angular for an e-commerce site</li>
+                        <li>Improved the page speed by 15% for an e-commerce</li>
+                        <li>Built extensive test coverage for all new features</li>
+                    </ul>
+                </div>
+                <!--Work place2-->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position">Full stack engineer <span class="my-work-experience-company"> Fresh direct</span></h4>
+                    <p class="my-work-experience-period">2012 – 2015 <span class="my-work-experience-divider">|</span> Ukraine</p>
+                    <ul class="my-work-experience-duties">
+                        <li>Responsible for API design and development of RESTful Services for the enterprise product in the business</li>
+                        <li>Worked on building new Angular components for the custumer-facing web app which improved the time page for the average user by 2 minutes</li>
+                        <li>Worked within an agile team and helped prioritize scope feature requests</li>
+                    </ul>
+                </div>
+                <!--Work place3-->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position">Full stack engineer intern<span class="my-work-experience-company"> Marketing Science Associates</span></h4>
+                    <p class="my-work-experience-period">2011 – 2012 <span class="my-work-experience-divider">|</span> Ukraine</p>
+                    <ul class="my-work-experience-duties">
+                        <li>Worked alongside another developer to implement RESTful APIs in Django that enabled our internal analystic team to increase reporting speed by 24%</li>
+                        <li>Using Selenium built out a unit testing infrastructure</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!--Education-->
+            <div class="my-education-section">
+                <h3 class="main-content-title">Education</h3>
+                <p class="my-education-university">Kharkiv National University of Radio Electronics</p>
+                <h4 class="my-education-faculty">Computer Engineering and Control</h4>
+                <p class="my-education-period">September 2010 — July 2015<span class="my-education-divider"> |</span> Ukraine</p>
+            </div>
         </div>
-        <div>
-            <h3>Projects</h3>
-            <ol>
-                <li><a href="/index.html" >site1</a>.....[HTML,CSS]</li>
-                <li><a href="https://replit.com/@Aline6estak/Do-you-know-me?embed=1&ouput=1#index.js">site2</a>.....[Java Script]</li>
-                <li><a href="https://replit.com/@Aline6estak/Do-you-know-me?embed=1&ouput=1#index.js">site2</a>.....[Node js]</li>
-            </ol>
-        </div>
-        <hr>
-        <div>
-            <h3>Work experience</h3>
-            <h4>Full stack developer Design Square Ins.</h4>
-            <p>2017 – current</p>
-            <ul>
-                <li>Added and maintained backend/frontend tools for canvas and weight based editor</li>
-                <li>Worked closely with the product team to build intelligent search functionality in Angular for an e-commerce site</li>
-                <li>Improved the page speed by 15% for an e-commerce</li>
-                <li>Built extensive test coverage for all new features</li>
-            </ul>
-            <h4>Full stack engineer Fresh direct</h4>
-            <p>2012 – 2015</p>
-            <ul>
-                <li>Responsible for API design and development of RESTful Services for the enterprise product in the business</li>
-                <li>Worked on building new Angular components for the custumer-facing web app which improved the time page for the average user by 2 minutes</li>
-                <li>Worked within an agile team and helped prioritize scope feature requests</li>
-            </ul>
-            <h4>Full stack engineer intern  Marketing Science Associates</h4>
-            <p>2011 – 2012</p>
-            <ul>
-                <li>Worked alongside another developer to implement RESTful APIs in Django that enabled our internal analystic team to increase reporting speed by 24%</li>
-                <li>Using Selenium built out a unit testing infrastructure</li>
-            </ul>
-            <hr>
-        </div>
-        <div>
-            <h3>Education</h3>
-            <p>Kharkiv National University of Radio Electronics</p>
-            <h4>Computer Engineering and Control</h4>
-            <hr>
-        </div>
-        <!--sidebar-->
-        <sidebar>
-            <img src="images/photo.jpg"  alt="my photo" width="250" height="250" >
-            <h3>Contacts</h3>
-            <span>C:</span><a href="tel:+31111111111">+3 111 111 11 11</a>
-            <span>E:</span><a href="mailto:First_name@notexist.com">First_name@notexist.com</a>
-            <h3>Tech skills</h3>
-            <ul>
-                <li>SQL</li>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>GIT</li>
-                <li>JavaScript</li>
-                <li>Node .js</li>
-                <li>Angular</li>
-                <li>PHP</li>
-            </ul>
-            <h3>Soft Skills</h3>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>Teamwork</li>
-                <li>Time management</li>
-            </ul>
-        </sidebar>     
-    </div> 
+        <!--sidebar section-->
+        <aside class="sidebar-section">
+            <img src="images/photo.jpg" alt="my photo">
+        <!--contacts section-->
+            <div class="contacts-section">
+                <h3 class="sidebar-title">Contacts</h3>
+                <div ><span class="contacts-type">C:</span>
+                    <a class="contacts-link" href="tel:+31111111111">+3 111 111 11 11</a>
+                </div>
+                <div><span class="contacts-type">E:</span>
+                    <a class="contacts-link" href="mailto:firstname@.com">firstname@nonexist.com</a>
+                </div>
+            </div>
+             <!--tech skills section-->
+            <div class="tech-section">
+                <h3 class="sidebar-title">Tech skills</h3>
+                <ul class="tech-list">
+                    <li><span>SQL</span></li>
+                    <li><span>HTML5</span> </li>
+                    <li><span>CSS3</span></li>
+                    <li><span>GIT</span></li>
+                    <li><span>JavaScript</span></li>
+                    <li><span>Node .js</span></li>
+                </ul>
+            </div>
+            <!--soft skills section-->
+            <div class="soft-section">
+                <h3 class="sidebar-title">Soft skills</h3>
+                <ul class="soft-list">
+                    <li><span>Scrum</span></li>
+                    <li><span>Agile</span></li>
+                    <li><span>Teamwork</span></li>
+                    <li><span>Time management</span></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>

@@ -1,0 +1,238 @@
+
+body{
+    background-color: #F5F7FA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 370px;
+    height:370px;
+} 
+
+.main-section{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: white;
+    margin:40px auto;
+}
+
+/* about-me-section */
+
+.about-me-section {
+    margin-bottom: 40px;
+    
+}
+
+.about-me-profession {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    margin-bottom: 20px;
+   
+    }
+
+.about-me-description {
+    width: 400px;
+    color: #595959;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;  
+}
+/* Main content section */
+
+.main-content {
+    padding: 100px 90px;
+    
+}
+ 
+.main-content-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color:black;
+    margin-bottom: 10px;
+}
+
+/*my-project-section */
+
+.my-project-section {
+    margin-bottom: 50px;
+}
+
+.my-project-list {
+    padding: 0 0 0 17px;
+}
+
+.my-project-list li {
+   color:black;
+   font-weight: bold;
+}
+
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color:black;
+}
+
+.my-project-link  { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-project-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left:5px;
+}
+
+.about-me-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: black;
+    }
+/* .my-work-experience-section */
+
+.my-work-experience-company{
+    color:#FB6D3A;
+}
+.my-work-experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.my-work-experience-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color:#A8a8a8;
+    margin-bottom: 10px;
+}
+.my-work-experience-divider {
+    color:black;
+}
+
+.my-work-experience-duties {
+    padding-left:18px;
+}
+.my-work-experience-duties li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:#595959;
+    
+}
+.my-work-experience-company-block {
+    margin-right: 15px;
+}
+
+/* my-education-section */
+.my-education-university {
+    color:#FB6D3A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.my-education-faculty {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color:black;
+}
+.my-education-divider {
+    color:black;
+}
+
+.my-education-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color:#A8a8a8;
+}
+
+
+/* sidebar-section */
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding:40px 0;
+}
+
+.contacts-section, .tech-section, .soft-section {
+    margin:50px 0 0 40px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+/* contacts-section */
+.contacts-type {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffff;
+    margin-right: 7px;
+
+}
+.contacts-link {
+color:#343E4D;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+}
+
+
+.soft-list, .tech-list {
+    padding: 0 0 0 19px;
+}
+
+ .tech-list li {
+    color:#FB6D3A;
+ }
+
+ .soft-list li {
+    color:#FB6D3A;
+ }
+ .tech-list span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffff;
+ }
+
+ .soft-list span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffff;
+ }
